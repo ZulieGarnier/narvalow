@@ -41,3 +41,13 @@ nav ul li:hover{
 	border-bottom:solid 1px red;
 	cursor:pointer;
 }
+
+.clear{
+	clear:both;
+}
+
+.video{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
