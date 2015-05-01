@@ -1,0 +1,11 @@
+h1, h2, .btn.btn-lg.btn-default.btn-block, a.navbar-brand{
+	font-family: cursive;
+}
+
+p{
+	font-family: cursive;
+}
+
+.col-lg-12 img{
+	margin-left:120px;
+}
