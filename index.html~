@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>The Narvalow Club</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+
+	<header>
+		<div class="logoNav">
+			<img class="logo" src="img/tetdemort2.jpg">
+			<nav>
+				<ul>
+					<li>The Narvalow Club</li>
+					<li>The Narvalow City Show</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="reseaux">
+			<img src="img/facebook.png"><img src="img/twitter.png">
+		</div>
+	</header>
+	
+	<div class="clear"></div>
+
+	<div class="video">
+			<p>vidéo</p>
+			<p>vidéo</p>
+			<p>vidéo</p>
+			<p>vidéo</p>
+			<p>vidéo</p>
+	</div>
+
+	<main>
+
+		<section class="module parallax parallax-1">
+			<div class="container">
+			</div>
+      		</section>
+
+		<section class="module content">
+			<div class="container">
+			  <h2>The Narvalow Club</h2>
+			  <p>Sur fond de musique, tatouage, low rider & graffiti, le Narvalow Club a pour vocation de regrouper les acteurs de l’identité montreuilloise sous une seule et même bannière, celle des Narvalow. Car bien plus qu’un simple club, le Narvalow Club, c’est avant tout un état d’esprit.</p>
+			  <p><span class="bold">Le Narvalow Club est avant tout une structure qui accueille des projets artistiques de tous horizons.</span> L’une des fiertés du club est de pouvoir dire que ce n’est pas parce qu’il vient de Montreuil-sous-Bois qu’il se cantonne à la culture street Hip-Hop, loin de là ! Tatouage, Street Art, couture, gravure, sérigraphie, musique, peinture, graphisme, photographie…</p>
+			  <p>Le Narvalow Club s’est fixé pour ambition <span class="bold">la création d’événement multi-facettes qui soient de véritables rassemblements humain.</span> Des rassemblements propices à l’échange, aux rencontres et à la naissance de nouveaux projets.</p>
+			  <p>Partant du principe qu’un service donné est toujours un service rendu, le Club a pour ambition de regroupes un maximum de compétences et d’accumuler un maximum de contact pour que les projets qu’il met en place se fassent rapidement, efficacement et toujours plus facilement. <span class="bold">Le plus grand de ces rassemblements se situe en juillet</span>, aux environs de la date anniversaire de la création du Narvalow Club. Le <span class="bold">NARVALOW CITY SHOW</span>, est en passe de devenir un évènement majeur de la scène urbaine d’Ile-de-France.</p>
+			</div>
+      		</section>
+
+		<section class="module parallax parallax-2">
+			<div class="container">
+			</div>
+      		</section>
+
+		<section class="module content">
+			<div class="container">
+			  <h2>The Narvalow City Show</h2>
+			  <p>Le Narvalow City Show est avant tout un célébration ; celle de la naissance du Narvalow club (2009). La vocation première est de proposer un événement humain, festif, regroupant différents artistes issus de la scène Hip-Hop actuelle française dans un cadre atypique (les murs à pêches). Sur une ou deux journées, l’équipe associative accueillera un public de toute la région Ile-de-France, voir national (Toulouse, Bordeaux, Lille, Lyon, Besançon) et européen (Belgique, Suisse, Italie…). Brise les incompréhensions, créer un pont entre les actions culturelles des quartiers et les manifestations à l’échelle de la ville.</p>
+			  <p>Le NARVALOW CLUB fonde sa démarche sur la possibilité d’inscrire les projets qu’il défend non dans la qualification restrictive de « cultures de quartier » mais dans celle de culture tout court. </p>
+			  <p>Le Narvalow City Show a pour but de créer une véritable dynamique d’échange et d’ouverture pour les habitant de Montreuil. Regrouper le public, mais aussi les artistes sous une seule et même identité lors d’un moment fort et symbolique. Des artistes comme Zoxea, 1995, Demi Portion, Swift Guad, Sniper, La Canaille, Soklak, Azrock, Scred Connexion et bien d’autres sont venus célébrer avec nous ce jour spécial lors lors d’un live-marathon de plus de 10h. Avec plus 800 personnes lors de la première édition, 1200 la seconde et 2000 pour la troisième, l’édition de cette année s’annonce d’ores et déjà comme l’événement majeur de ce début d’été…</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+	    <div class="container">
+		<small>
+		  &copy; 2014, Nick Salloum<br>Julie Garnier / Yoan Dieu / Barbosa Gomis
+		</small>
+	    </div>
+	</footer>
+</body>
+</html>
+
