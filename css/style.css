@@ -133,6 +133,9 @@ main {
   padding: 0 20px;
 }
 
+iframe{
+        width: 100% !important;
+}
 
 footer {
   padding: 20px 0;
