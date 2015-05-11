@@ -6,7 +6,6 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 section.module p {
@@ -36,7 +35,6 @@ section.module.parallax h1 {
   line-height: 600px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
