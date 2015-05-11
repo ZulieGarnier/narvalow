@@ -1,12 +1,29 @@
+@font-face{
+	font-family:"Fedra";
+	src:url(/fonts/TEXTE/FedraSansPro/FedraSansPro-Book.otf) format(otf), 
+	url(/fonts/TEXTE/FedraSansPro/FedraSansPro-BookItalic.otf) format(otf), 
+	url(/fonts/TEXTE/FedraSansPro/FedraSansPro-Medium.otf) format (otf), 
+	url(/fonts/TEXTE/FedraSansPro/FedraSansPro-MediumItalic.otf) format(otf);
+}
+
+@font-face{
+	font-family:'Hold';
+	src:url('/fonts/TITRE/Hold Fast Foundry - Gin.otf') format('otf');
+}
+
 body{
-	background-color: white;
 	color: #282828;
-	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	margin:0px;
 	padding:0px;
 }
+
+
+.container h2{
+	font-family:"Hold", arial;
+}
+
 
 .entete {
 	background-color: white;
@@ -24,8 +41,6 @@ body{
 .entete:hover {
 	opacity: 0.98;
 	}
-
-
 
 .logo{
 	position: relative;
