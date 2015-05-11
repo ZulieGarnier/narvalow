@@ -1,9 +1,9 @@
 @font-face{
-	font-family:"Fedra";
-	src:url(/fonts/TEXTE/FedraSansPro/FedraSansPro-Book.otf) format(otf), 
-	url(/fonts/TEXTE/FedraSansPro/FedraSansPro-BookItalic.otf) format(otf), 
-	url(/fonts/TEXTE/FedraSansPro/FedraSansPro-Medium.otf) format (otf), 
-	url(/fonts/TEXTE/FedraSansPro/FedraSansPro-MediumItalic.otf) format(otf);
+	font-family:'Fedra';
+	src:url('/fonts/TEXTE/FedraSansPro/FedraSansPro-Book.otf') format('otf'), 
+	url('/fonts/TEXTE/FedraSansPro/FedraSansPro-BookItalic.otf') format('otf'), 
+	url('/fonts/TEXTE/FedraSansPro/FedraSansPro-Medium.otf') format ('otf'), 
+	url('/fonts/TEXTE/FedraSansPro/FedraSansPro-MediumItalic.otf') format('otf');
 }
 
 @font-face{
