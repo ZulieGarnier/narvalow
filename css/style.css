@@ -38,10 +38,13 @@ body{
 
 
 .container h2{
-	font-family:"Fedra", arial;
+	font-family:"Hold", arial;
 	color:red;
 }
 
+.container p{
+	font-family:"Fedra", arial;
+}
 
 .entete {
 	background-color: white;
