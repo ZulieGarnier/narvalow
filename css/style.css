@@ -1,14 +1,31 @@
 @font-face{
-	font-family:'Fedra';
-	src:url('/fonts/TEXTE/FedraSansPro/FedraSansPro-Book.otf') format('otf'), 
-	url('/fonts/TEXTE/FedraSansPro/FedraSansPro-BookItalic.otf') format('otf'), 
-	url('/fonts/TEXTE/FedraSansPro/FedraSansPro-Medium.otf') format ('otf'), 
-	url('/fonts/TEXTE/FedraSansPro/FedraSansPro-MediumItalic.otf') format('otf');
+	font-family:"Fedra";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-Book.otf');
+	font-weight:normal;
 }
 
 @font-face{
-	font-family:'Hold';
-	src:url('/fonts/TITRE/Hold Fast Foundry - Gin.otf') format('otf');
+	font-family:"Fedra Italic";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-BookItalic.otf');
+	font-weight:italic;
+}
+
+@font-face{
+	font-family:"Fedra Bold";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-Medium.otf');
+	font-weight:bold;
+}
+
+@font-face{
+	font-family:"Fedra Bold Italic";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-MediumItalic.otf');
+	font-weight:bold;
+}
+
+@font-face{
+	font-family:"Hold";
+	src:url('../fonts/TITRE/HoldFast.otf');
+	font-weight:normal;
 }
 
 body{
@@ -21,7 +38,8 @@ body{
 
 
 .container h2{
-	font-family:"Hold", arial;
+	font-family:"Fedra", arial;
+	color:red;
 }
 
 
