@@ -93,7 +93,6 @@ body{
 	margin-left:50px;
 	position: relative;
 	margin-top: 20px;
-	margin-bottom: 25px;
 }
 
 .bold{
@@ -167,6 +166,35 @@ main {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  text-align:justify;
+}
+
+.texte1{
+	background-image:url(../img/fondslide1.jpg);
+	background-size:cover;
+}
+
+.texte2{
+	background-image:url(../img/fondslide2.jpg);
+	background-size:cover;
+}
+
+.texte3{
+	background-image:url(../img/fondslide3.jpg);
+	background-size:cover;
+}
+
+.sub{
+	font-family:"Hold", arial;
+}
+
+.red{
+	color:red;
+	font-weight:bold;
+}
+
+.black{
+	color:black;
 }
 
 iframe{
