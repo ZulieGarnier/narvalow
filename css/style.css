@@ -183,34 +183,34 @@ nav ul li:hover{
 }
 
 video{
-position:absolute;
-margin-top:-30px;
-margin-left:-50px;	
+	position:absolute;
+	margin-top:-30px;
+	margin-left:-50px;	
 }
 
 .wrapper {
-  width: 100%;
-  margin: 0 auto;
+	width: 100%;
+ 	margin: 0 auto;
 }
 
 main {
-  display: block;
-  background-color: white;
+	display: block;
+	background-color: white;
 }
 
 .container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align:justify;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align:justify;
 }
 
 .slider {
-				width: 50%;
-				margin-top: 50px;
-				margin-left: auto;
-				margin-right: auto;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .texte1{
@@ -249,6 +249,16 @@ main {
 
 iframe{
         width: 100% !important;
+}
+
+p a{
+	text-decoration:none;
+	color:red;
+	font-weight:bold;
+}
+
+p a:hover{
+	color:darkred;
 }
 
 footer {
