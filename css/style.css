@@ -1,22 +1,61 @@
+@font-face{
+	font-family:"Fedra";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-Book.otf');
+	font-weight:normal;
+}
+
+@font-face{
+	font-family:"Fedra Italic";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-BookItalic.otf');
+	font-weight:italic;
+}
+
+@font-face{
+	font-family:"Fedra Bold";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-Medium.otf');
+	font-weight:bold;
+}
+
+@font-face{
+	font-family:"Fedra Bold Italic";
+	src:url('../fonts/TEXTE/FedraSansPro/FedraSansPro-MediumItalic.otf');
+	font-weight:bold;
+}
+
+@font-face{
+	font-family:"Hold";
+	src:url('../fonts/TITRE/HoldFast.otf');
+	font-weight:normal;
+}
+
 body{
-	background-color: white;
 	color: #282828;
-	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	margin:0px;
 	padding:0px;
 }
 
+
+.container h2{
+	font-family:"Hold", arial;
+	color:red;
+}
+
+.container p{
+	font-family:"Fedra", arial;
+}
+
 .entete {
-	background-color: white;
+	background-image:url(../img/bandeauaccueilsite.jpg);
+	background-size:cover;
 	opacity: 0.5;
-	padding:30px;
+	padding:40px;
 	-webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
 	-moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
 	-o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
 	transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
-	margin-top:-30px;
+	margin-top:-20px;
 	margin-left:-50px;
 }
 	
@@ -24,8 +63,6 @@ body{
 .entete:hover {
 	opacity: 0.98;
 	}
-
-
 
 .logo{
 	position: relative;
@@ -39,12 +76,12 @@ body{
 
 .reseaux{
 	display: inline-block;
-	vertical-align: top;
-	left: 100px;
-	box-sizing: border-box;
-	margin-top: 80px;
-	position: relative;
-	width: 15%;
+  	vertical-align: top;
+  	left: 55px;
+  	box-sizing: border-box;
+  	margin-top: 40px;
+  	position: relative;
+  	width: 10%;
 	} 
 
 .reseaux img{
@@ -57,38 +94,73 @@ body{
 	margin-left:50px;
 	position: relative;
 	margin-top: 20px;
-	margin-bottom: 25px;
 }
 
 .bold{
 	font-weight:bold;
 }
 
-nav {
-	width: 60%;
-	display: inline-block;
-	position: relative;
-	vertical-align: top;
-	box-sizing: border-box;
-	margin-top: 97px;
+.nav1{
+	display:inline-block;
+	vertical-align:top;
+	box-sizing:border-box;
+	margin-right: 140px;
+  	margin-left: 28px;
 }
 
-nav ul {
+.nav1 nav {
+	display:inline-block;
+	vertical-align:top;
+	box-sizing:border-box;
+	position: relative;
+	margin: 20px;
+}
+
+.nav1 nav ul {
 	margin:0;
 	height: 25%;
 	position: relative;
-	margin-left: 20px;
 }
 
 
-nav ul li{
-	display:inline;
-	padding-bottom: 10px;
-	margin-left:100px;
+.nav1 nav ul li{
+	list-style-type:none;
+	padding: 20px;
+	margin-left:70px;
 	font-weight: bold;
-	font-family: "Roboto Slab",serif;
+	font-family: "Hold",serif;
 	font-size:20px;
 }
+
+.nav2{
+	display:inline-block;
+	vertical-align:top;
+	box-sizing:border-box;
+}
+
+.nav2 nav {
+        display:inline-block;
+        vertical-align:top;
+        box-sizing:border-box;
+        position: relative;
+        margin: 20px;
+}
+
+.nav2 nav ul {
+        margin:0;
+        height: 25%;
+        position: relative;
+}
+
+.nav2 nav ul li{
+        list-style-type:none;
+        padding: 20px;
+        margin-left:70px;
+        font-weight: bold;
+        font-family: "Hold",serif;
+        font-size:20px;
+}
+
 
 nav ul li:hover{
 	border-bottom: solid 1px red;
@@ -131,8 +203,46 @@ main {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  text-align:justify;
 }
 
+.texte1{
+	background-image:url(../img/fondslide1.jpg);
+	background-size:cover;
+}
+
+.texte2{
+	background-image:url(../img/fondslide2.jpg);
+	background-size:cover;
+}
+
+.texte3{
+	background-image:url(../img/fondslide3.jpg);
+	background-size:cover;
+}
+
+.texte4{
+	background-image:url(../img/scroll.jpg);
+	background-size:cover;
+}
+
+
+.sub{
+	font-family:"Hold", arial;
+}
+
+.red{
+	color:red;
+	font-weight:bold;
+}
+
+.black{
+	color:black;
+}
+
+iframe{
+        width: 100% !important;
+}
 
 footer {
   padding: 20px 0;
