@@ -52,6 +52,10 @@ section.module.parallax-4 {
   background-image: url("../img/graff.jpg");
 }
 
+section.module.parallax-5 {
+  background-image: url("../img/fondDj.jpg");
+}
+
 
 @media all and (min-width: 600px) {
   section.module h2 {
