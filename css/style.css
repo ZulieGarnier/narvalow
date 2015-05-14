@@ -132,6 +132,11 @@ body{
 	font-size:20px;
 }
 
+nav ul li a{
+	text-decoration:none;
+	color:black;
+}
+
 .nav2{
 	display:inline-block;
 	vertical-align:top;
@@ -162,8 +167,8 @@ body{
 }
 
 
-nav ul li:hover{
-	border-bottom: solid 1px red;
+nav ul li a:hover{
+	color:red;
 	cursor:pointer;
 }
 
@@ -231,6 +236,18 @@ main {
 .texte4{
 	background-image:url(../img/scroll.jpg);
 	background-size:cover;
+}
+
+.col1{
+	display:inline-block;
+	vertical-align:top;
+	box-sizing:border-box;
+	width:31%;
+	margin-right:18%;
+}
+
+.col2{
+	width:100%;
 }
 
 
