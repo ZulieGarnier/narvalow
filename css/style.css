@@ -28,11 +28,9 @@
 	font-weight:normal;
 }
 
-html {
-			max-width: 100%;
-}
 
 body{
+	width:100%;
 	color: #282828;
 	font-size: 14px;
 	line-height: 1.5;
@@ -98,9 +96,7 @@ header {
 	position: relative;
 	display: inline-block;
 	margin-left: 10%;
-	margin-right: auto;
-	max-width: 80%;
-	max-height: 350px;
+	width: 80%;
 }
 
 .logoheader {
@@ -115,21 +111,11 @@ header {
 
 .reseaux {
 	float: right;
-	display: inline-block;
-  	vertical-align: top;
-  	left: 55px;
-  	box-sizing: border-box;
-  	margin-top: auto;
-		margin-bottom: auto;
-  	position: relative;
   	width: 10%;
 	} 
 
-.reseaux img {
-	display: block;
-	padding:0;
-	margin-right: 10px;
-	margin-left: 10px;
+.reseaux img{
+	margin:6px;
 }
 
 .logoNav {
@@ -149,18 +135,9 @@ header {
 	box-sizing:border-box;
 	margin-right: 3%;
 	list-style-type:none;
-	text-align: right;
 }
 
-/*
-.nav1 nav {
-	display:inline-block;
-	vertical-align:top;
-	box-sizing:border-box;
-	position: relative;
-	margin: 20px;
-}
-*/
+
 .nav1 nav ul {
 	margin:0;
 	height: 20%;
@@ -188,15 +165,6 @@ nav ul li a {
 	list-style-type:none;
 }
 
-/*
-.nav2 nav {
-        display:inline-block;
-        vertical-align:top;
-        box-sizing:border-box;
-        position: relative;
-        margin: 20px;
-}
-*/
 .nav2 nav ul {
         margin:0;
         height: 25%;
