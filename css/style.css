@@ -46,6 +46,17 @@ body{
 	cursor:pointer;
 }
 
+.partenaire{
+	margin-left:10%;
+	margin-right:5%;
+}
+
+.partenaire img{
+	width:15%;
+	margin-right:10%;
+	margin-bottom:5%;
+}
+
 .container h2{
 	font-family:"Hold", arial;
 	color:red;
