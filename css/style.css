@@ -28,7 +28,9 @@
 	font-weight:normal;
 }
 
+
 body{
+	width:100%;
 	color: #282828;
 	font-size: 14px;
 	line-height: 1.5;
@@ -66,8 +68,12 @@ body{
 	font-family:"Fedra", arial;
 }
 
+header {
+				height: 80%;
+}
+
 .entete {
-	background-image:url(../img/bandeauaccueilsite.jpg);
+	background-image:url(../img/scroll.jpg);
 	background-size:cover;
 	opacity: 0.5;
 	padding:40px;
@@ -76,7 +82,9 @@ body{
 	-o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
 	transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
 	margin-top:-20px;
-	margin-left:-50px;
+/*margin-left:-50px;*/
+	max-height: 400px;
+	box-sizing: border-box;
 }
 	
 
@@ -84,91 +92,77 @@ body{
 	opacity: 0.98;
 	}
 
-.logo{
+.headwarper {
+	position: relative;
+	display: inline-block;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.logoheader {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	box-sizing: border-box;
 	width: 15%;
-	margin-right: 20px;
+	margin-top: -1%;
 	padding: 0;	
 }
 
-.reseaux{
-	display: inline-block;
-  	vertical-align: top;
-  	left: 55px;
-  	box-sizing: border-box;
-  	margin-top: 40px;
-  	position: relative;
+.reseaux {
+	float: right;
   	width: 10%;
 	} 
 
 .reseaux img{
-	padding:0;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin:6px;
 }
 
-.logoNav{
-	margin-left:50px;
+.logoNav {
+	/*margin-left:50px;*/
 	position: relative;
 	margin-top: 20px;
 }
 
-.bold{
+.bold {
 	font-weight:bold;
 }
 
-.nav1{
+
+.nav1 {
 	display:inline-block;
-	vertical-align:top;
+	vertical-align: middle;
 	box-sizing:border-box;
-	margin-right: 140px;
-  	margin-left: 28px;
+	margin-right: 3%;
+	list-style-type:none;
 }
 
-.nav1 nav {
-	display:inline-block;
-	vertical-align:top;
-	box-sizing:border-box;
-	position: relative;
-	margin: 20px;
-}
 
 .nav1 nav ul {
 	margin:0;
-	height: 25%;
+	height: 20%;
 	position: relative;
 }
 
 
-.nav1 nav ul li{
+.nav1 nav ul li {
 	list-style-type:none;
 	padding: 20px;
-	margin-left:70px;
 	font-weight: bold;
 	font-family: "Hold",serif;
 	font-size:20px;
 }
 
-nav ul li a{
+nav ul li a {
 	text-decoration:none;
 	color:black;
 }
 
-.nav2{
+.nav2 {
 	display:inline-block;
-	vertical-align:top;
+	vertical-align:middle;
 	box-sizing:border-box;
-}
-
-.nav2 nav {
-        display:inline-block;
-        vertical-align:top;
-        box-sizing:border-box;
-        position: relative;
-        margin: 20px;
+	list-style-type:none;
 }
 
 .nav2 nav ul {
@@ -180,12 +174,10 @@ nav ul li a{
 .nav2 nav ul li{
         list-style-type:none;
         padding: 20px;
-        margin-left:70px;
         font-weight: bold;
         font-family: "Hold",serif;
         font-size:20px;
 }
-
 
 nav ul li a:hover{
 	color:red;
@@ -210,7 +202,8 @@ nav ul li a:hover{
 video{
 	position:absolute;
 	margin-top:-30px;
-	margin-left:-50px;	
+	margin-left:-50px;
+	z-index: -1;	
 }
 
 .wrapper {
@@ -241,6 +234,7 @@ main {
 .texte1{
 	background-image:url(../img/fondslide1.jpg);
 	background-size:cover;
+	z-index: 10;
 }
 
 .texte2{
