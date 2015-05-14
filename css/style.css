@@ -36,6 +36,15 @@ body{
 	padding:0px;
 }
 
+.up{
+	float:right;
+	margin-right:60px;
+	margin-top:-50px;
+}
+
+.up:hover{
+	cursor:pointer;
+}
 
 .container h2{
 	font-family:"Hold", arial;
