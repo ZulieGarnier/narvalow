@@ -112,14 +112,13 @@ header {
 .reseaux {
 	float: right;
   	width: 10%;
-	} 
+} 
 
 .reseaux img{
 	margin:6px;
 }
 
 .logoNav {
-	/*margin-left:50px;*/
 	position: relative;
 	margin-top: 20px;
 }
@@ -191,7 +190,7 @@ nav ul li a:hover{
 
 .surground{
 	width:104.05%;
-	height:434px;
+	height:260px;
 	background-color:darkred;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
