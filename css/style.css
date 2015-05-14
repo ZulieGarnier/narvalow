@@ -77,6 +77,8 @@ body{
 	transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
 	margin-top:-20px;
 	margin-left:-50px;
+	width: 100%;
+	max-height: 400px;
 }
 	
 
@@ -87,10 +89,10 @@ body{
 .headwarper {
 	position: relative;
 	display: inline-block;
-	vertical-align: middle;
-	margin-left: auto;
+	margin-left: 10%;
 	margin-right: auto;
-	width: 80%;
+	max-width: 80%;
+	max-height: 350px;
 }
 
 .logoheader {
@@ -115,6 +117,7 @@ body{
 	} 
 
 .reseaux img{
+	display: block;
 	padding:0;
 	margin-right: 10px;
 	margin-left: 10px;
