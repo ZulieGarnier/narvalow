@@ -72,18 +72,29 @@ header {
 	height: 80%;
 }
 
+.enrouleur {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: auto;
+		max-height: 100%;
+		min-height: 800px;
+}
+
 .entete {
+	position: relative;
 	background-image:url(../img/scroll.jpg);
 	background-size:cover;
 	opacity: 0.5;
-	padding:40px;
+	padding:0;
 	-webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
 	-moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
 	-o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
 	transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
 	margin-top:-20px;
 /*margin-left:-50px;*/
-	max-height: 400px;
+	height: 300px;
+	width: 100%;
 	box-sizing: border-box;
 }
 	
@@ -95,7 +106,8 @@ header {
 .headwarper {
 	position: relative;
 	display: inline-block;
-	margin-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
 	width: 80%;
 }
 
@@ -119,8 +131,10 @@ header {
 }
 
 .logoNav {
+	display: block;
 	position: relative;
 	margin-top: 20px;
+	height: 80%;
 }
 
 .bold {
@@ -189,19 +203,21 @@ nav ul li a:hover{
 
 
 .surground{
-	width:104.05%;
-	height:260px;
-	background-color:darkred;
+	width:100%;
+	min-height: 600px; 
+	max-height: 750px;
+	background-color: darkred;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
 	position:relative;
-	margin-left:-50px;
+	margin-left:0px;
+	z-index: 2;
 }
 
 video{
-	position:absolute;
-	margin-top:-30px;
-	margin-left:-50px;
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
 	z-index: -1;	
 }
 
@@ -211,6 +227,7 @@ video{
 }
 
 main {
+	position: relative;
 	display: block;
 	background-color: white;
 }
@@ -231,9 +248,11 @@ main {
 }
 
 .texte1{
+	position: relative;
 	background-image:url(../img/fondslide1.jpg);
 	background-size:cover;
 	z-index: 10;
+	margin-top: 0;
 }
 
 .texte2{
