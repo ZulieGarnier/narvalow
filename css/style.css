@@ -28,7 +28,47 @@
 	font-weight:normal;
 }
 
+@font-face {
+    font-family: '../fonts/Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+.symbol{
+	font-size:40px;
+}
+
+.symbol:hover{
+	cursor:pointer;
+	color:red;
+}
+
+.symbol, a.symbol:before {
+    font-family: '../fonts/Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+					
 body{
 	width:100%;
 	color: #282828;
@@ -41,7 +81,7 @@ body{
 .up{
 	float:right;
 	margin-right:60px;
-	margin-top:-50px;
+	margin-top:-75px;
 }
 
 .up:hover{
@@ -51,12 +91,18 @@ body{
 .partenaire{
 	margin-left:10%;
 	margin-right:5%;
+	margin-top:10%;
 }
 
 .partenaire img{
-	width:15%;
-	margin-right:10%;
+	width:8%;
+	margin-right:6%;
 	margin-bottom:5%;
+}
+
+.acces{
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
 .container h2{
