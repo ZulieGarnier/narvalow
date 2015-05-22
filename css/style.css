@@ -278,9 +278,6 @@ main {
 	color:black;
 }
 
-iframe{
-        width: 100% !important;
-}
 
 p a{
 	text-decoration:none;
@@ -353,7 +350,17 @@ footer .copyright a {
     text-align: right;
   }
 }
-#souncloud{
-width:25%;
-height:25%;
+#soundcloud{
+width:90%;
+text-align:center;
+height:auto;
+margin:auto;
 }
+iframe{
+width:80%;
+}
+
+
+
+
+
