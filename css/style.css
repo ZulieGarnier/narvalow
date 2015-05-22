@@ -324,9 +324,6 @@ main {
 	color:black;
 }
 
-iframe{
-        width: 100% !important;
-}
 
 p a{
 	text-decoration:none;
@@ -399,4 +396,17 @@ footer .copyright a {
     text-align: right;
   }
 }
+#soundcloud{
+width:90%;
+text-align:center;
+height:auto;
+margin:auto;
+}
+iframe{
+width:80%;
+}
+
+
+
+
 
