@@ -160,20 +160,30 @@ header {
 .logoheader {
 	position: relative;
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	box-sizing: border-box;
-	width: 15%;
-	margin-top: -1%;
+	width: 25%;
 	padding: 0;	
 }
 
-.reseaux {
-	float: right;
-  	width: 10%;
+.reseaux1, .reseaux2 {
+  	width: 5%;
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin-left:10%;
 } 
 
-.reseaux img{
-	margin:6px;
+.reseaux1{
+	
+}
+
+.wrapperNav{
+	width:70%;
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin-left:10%;
 }
 
 .logoNav {
@@ -192,21 +202,19 @@ header {
 	display:inline-block;
 	vertical-align: middle;
 	box-sizing:border-box;
-	margin-right: 3%;
 	list-style-type:none;
 }
 
 
 .nav1 nav ul {
 	margin:0;
-	height: 20%;
 	position: relative;
 }
 
 
 .nav1 nav ul li {
 	list-style-type:none;
-	padding: 20px;
+	padding-bottom: 20px;
 	font-weight: bold;
 	font-family: "Hold",serif;
 	font-size:20px;
@@ -226,13 +234,12 @@ nav ul li a {
 
 .nav2 nav ul {
         margin:0;
-        height: 25%;
         position: relative;
 }
 
 .nav2 nav ul li{
         list-style-type:none;
-        padding: 20px;
+        padding-bottom: 20px;
         font-weight: bold;
         font-family: "Hold",serif;
         font-size:20px;
@@ -250,8 +257,7 @@ nav ul li a:hover{
 
 .surground{
 	width:100%;
-	min-height: 600px; 
-	max-height: 750px;
+	height:750px;
 	background-color: darkred;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
