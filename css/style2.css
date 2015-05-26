@@ -10,7 +10,7 @@ section.module h2 {
 }
 section.module p {
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
 }
 section.module p:last-child {
@@ -31,7 +31,7 @@ section.module.parallax {
 }
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 25px;
+  font-size: 20px;
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -59,13 +59,13 @@ section.module.parallax-5 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    font-size: 30px;
   }
   section.module p {
-    font-size: 20px;
+    font-size: 15px;
   }
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 60px;
   }
 }
 @media all and (min-width: 960px) {
