@@ -44,7 +44,7 @@
 	font-size:40px;
 }
 
-.symbol:hover{
+.symbol a:hover{
 	cursor:pointer;
 	color:red;
 }
@@ -67,6 +67,11 @@ a.symbol:before {
     content: attr(title);
     margin-right: 0.3em;
     font-size: 130%;
+}
+
+.symbol a {
+						color: black;
+						text-decoration: none;
 }
 					
 body{
