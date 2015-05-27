@@ -64,14 +64,14 @@
 }
 
 a.symbol:before {
-    content: attr(title);
-    margin-right: 0.3em;
-    font-size: 130%;
+	content: attr(title);
+	margin-right: 0.3em;
+	font-size: 130%;
 }
 
 .symbol a {
-						color: black;
-						text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 					
 body{
@@ -387,6 +387,7 @@ p a:hover{
 
 footer {
   padding: 20px 0;
+	font-family:"Fedra";
 }
 footer .asides {
   margin-bottom: 20px;
@@ -420,7 +421,7 @@ footer .copyright {
 }
 footer .copyright small {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 footer .copyright a {
   color: #818181;
@@ -446,6 +447,8 @@ footer .copyright a {
     text-align: right;
   }
 }
+
+
 #soundcloud{
 width:90%;
 text-align:center;
@@ -457,8 +460,5 @@ margin:45px auto 45px;
 iframe{
 width:80%;
 }
-
-
-
 
 
