@@ -5,11 +5,11 @@ section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
-  font-size: 30px;
+  margin-bottom:10px;
+  font-size: 25px;
 }
 section.module p {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 15px;
   font-weight: 300;
 }
