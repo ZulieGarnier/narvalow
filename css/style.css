@@ -444,8 +444,10 @@ footer .copyright a {
 width:90%;
 text-align:center;
 height:auto;
-margin:auto;
+margin:auto auto 45px;
 }
+
+
 iframe{
 width:80%;
 }
