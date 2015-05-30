@@ -127,7 +127,7 @@ header {
 
 .entete {
 	position: relative;
-	background-image:url(../img/scroll.jpg);
+	background-image:url(../img/fondwebtexte.jpg);
 	background-size:cover;
 	opacity: 0.5;
 	padding:0;
@@ -350,7 +350,7 @@ main {
 }
 
 .texte4{
-	background-image:url(../img/scroll.jpg);
+	background-image:url(../img/fondwebtexte.jpg);
 	background-size:cover;
 }
 
@@ -394,6 +394,9 @@ p a:hover{
 footer {
   padding: 20px 0;
 	font-family:"Fedra";
+	background-image: url(../img/fondnegatif.jpg);
+	background-size: cover;
+	color: white;
 }
 footer .asides {
   margin-bottom: 20px;
@@ -455,16 +458,6 @@ footer .copyright a {
 }
 
 
-#soundcloud{
-width:90%;
-text-align:center;
-height:auto;
-margin:45px auto 45px;
-}
 
-
-iframe{
-width:80%;
-}
 
 
