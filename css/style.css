@@ -83,6 +83,7 @@ body{
 	padding:0px;
 }
 
+
 .up{
 	float:right;
 	margin-right:60px;
@@ -122,7 +123,21 @@ body{
 }
 
 header {
+	background-color: black;
 	height: 80%;
+}
+
+.audio{
+	position:relative;
+}
+
+
+audio{
+	width:20%;
+	background-color:black;
+	border-radius:5px;
+	margin-left:0;
+	margin-top:2%;
 }
 
 .plusgrand {
@@ -140,16 +155,17 @@ header {
 	background-image:url(../img/fondwebtexte.jpg);
 	background-size:cover;
 	opacity: 0.5;
-	padding:0;
+	padding:auto;
 	-webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
 	-moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
 	-o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
 	transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
-	margin-top:-20px;
+	margin-top:0;
 /*margin-left:-50px;*/
 	height: 260px;
 	width: 100%;
 	box-sizing: border-box;
+	margin-top:-20px;
 }
 	
 
@@ -158,11 +174,12 @@ header {
 	}
 
 .headwarper {
+	text-align: center;
 	position: relative;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 98%;
 }
 
 .logoheader {
@@ -173,6 +190,7 @@ header {
 	width: 18%;
 	padding: 0;
 	margin-left: 5%;	
+	margin-right: 5%;	
 }
 
 .reseaux1, .reseaux2 {
@@ -180,22 +198,22 @@ header {
 	display:inline-block;
 	vertical-align:middle;
 	box-sizing:border-box;	
-} 
-
-.reseaux1{
 	margin-left:5%;
 	margin-right:5%;
-}
+	text-align: center;
+} 
+
 
 .reseaux1 span, .reseaux2 span {
 		display:block;
 }
 
 .wrapperNav{
-	width:75%;
+	width: 65%;
 	display:inline-block;
 	vertical-align:middle;
-	box-sizing:border-box;	
+	box-sizing:border-box;
+	margin: auto;	
 }
 
 .logoNav {
@@ -211,20 +229,10 @@ header {
 	font-weight:bold;
 }
 
-
-.nav1 {
-	display:inline-block;
-	vertical-align: middle;
-	box-sizing:border-box;
-	list-style-type:none;
-	line-height:2.5em;
-	text-align:right;
-}
-
-
 .nav1 nav ul {
 	margin:0;
 	position: relative;
+	text-align: right;
 }
 
 
@@ -250,16 +258,20 @@ nav ul li a {
 	color:black;
 }
 
-.nav2 {
+.nav1, .nav2 {
 	display:inline-block;
 	vertical-align:middle;
 	box-sizing:border-box;
 	list-style-type:none;
+	left: 0;
+	width: 35%;
 }
 
 .nav2 nav ul {
-        margin:0;
         position: relative;
+        margin: 0;
+				padding-left: 0;
+				text-align: left;
 }
 
 .nav2 nav ul li{
@@ -268,7 +280,8 @@ nav ul li a {
         font-weight: bold;
         font-family: "Hold",serif;
         font-size:20px;
-	line-height:1.5em;
+				line-height:1.5em;
+        /*padding-left:0px;*/
 }
 
 nav ul li a:hover{
@@ -282,21 +295,20 @@ nav ul li a:hover{
 
 
 .surground{
+	position:relative;
 	width:100%;
-	height:400px;
+	height:450px;
 	background-color: darkred;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
-	position:relative;
 	margin-left:0px;
 	z-index: 2;
 }
 
 video{
 	position: absolute;
-	margin-top:0px;
-	margin-left:0px;
-	z-index: -1;	
+	margin:0px;
+	z-index: 0;	
 }
 
 .wrapper {
@@ -431,7 +443,8 @@ p a:hover{
 }
 
 footer {
-  padding: 20px 0;
+	max-height: 50px;
+  padding-bottom: 20px;
 	font-family:"Fedra";
 	background-image: url(../img/fondnegatif.jpg);
 	background-size: cover;
