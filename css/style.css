@@ -70,8 +70,8 @@ a.symbol:before {
 }
 
 .symbol a {
-	color: black;
 	text-decoration: none;
+	color:black;
 }
 					
 body{
@@ -94,6 +94,7 @@ body{
 }
 
 .partenaire{
+	width: 80%;
 	margin-left:10%;
 	margin-right:5%;
 	margin-top:10%;
@@ -124,6 +125,15 @@ header {
 	height: 80%;
 }
 
+.plusgrand {
+	height: 35px;
+	width: 350px; 
+}
+
+.pluspetit a {
+	font-size: 20px;
+	color:white;
+}
 
 .entete {
 	position: relative;
@@ -315,14 +325,43 @@ main {
 	box-sizing: border-box;
 }
 
+.part1bis{
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:border-box;
+	width:40%;
+}
+
 .part2 {
 	display: inline-block;
 	width: 30%;
 	vertical-align: middle;
 	box-sizing: border-box;
 	margin-left:19%;
-	margin-top: 22%;
+	margin-top: 11%;
 }
+
+.part3 {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.part4{
+	display:inline-block;
+	vertical-align:middle;
+	box-sizing:border-box;
+	width:50%;
+	margin-top:-2%;	
+	text-align:right;
+}
+
+
+.logos {
+				margin-top: 3%;
+}
+	
 
 .slider {
 	width: 50%;
