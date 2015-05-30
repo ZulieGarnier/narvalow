@@ -337,6 +337,14 @@ main {
 	box-sizing: border-box;
 }
 
+.widgets {
+	display: block;
+}
+
+.widgets a, .widgets div {
+	display: inline-block;
+}
+
 .part1bis{
 	display:inline-block;
 	vertical-align:middle;
