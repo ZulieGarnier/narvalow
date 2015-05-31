@@ -95,16 +95,13 @@ body{
 }
 
 .partenaire{
-	width: 80%;
-	margin-left:10%;
-	margin-right:5%;
-	margin-top:5%;
+	width: 90%;
+	margin-left:5%;
 }
 
 .partenaire img{
-	width:8%;
+	width:6%;
 	margin-right:6%;
-	margin-bottom:5%;
 }
 
 .acces{
@@ -129,20 +126,22 @@ header {
 
 .audio{
 	position:relative;
+	z-index:1;
+	margin:auto;
 }
 
 
 audio{
 	width:20%;
-	background-color: none;
 	padding: 5px;
 	border-radius:5px;
-	margin-left:0;
+	margin-left:39.5%;
+	margin-right:39.5%;
 }
 
 .plusgrand {
 	height: 35px;
-	width: 350px; 
+	width: 500px; 
 }
 
 .pluspetit a {
@@ -302,7 +301,7 @@ nav ul li a:hover{
 	opacity: 0.5;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
 	margin-left:0px;
-	z-index: 2;
+	z-index: 3;
 }
 
 video{
@@ -358,7 +357,8 @@ main {
 	display:inline-block;
 	vertical-align:middle;
 	box-sizing:border-box;
-	width:40%;
+	width:29%;
+	font-size:12px;
 }
 
 .part2 {
@@ -386,8 +386,8 @@ main {
 	display:inline-block;
 	vertical-align:middle;
 	box-sizing:border-box;
-	width:50%;
-	margin-top:-2%;	
+	width:70%;	
+	font-size:12px;
 	text-align:right;
 }
 
