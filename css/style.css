@@ -571,4 +571,27 @@ footer .copyright a {
 }
 
 
+@media all and (max-width: 1531px) {
+	
+	.nav1 nav ul {
+		padding-left:0;
+		width: 110%;
+		margin-left: -10%;
+	}
 
+
+	.nav2 nav ul {
+		padding-left:0;
+		width: 110%;
+		margin-left: 0%;
+	}
+
+	.reseaux1, .reseaux2 {
+		margin-top: 3%;
+	}
+
+	.reseaux1 span, .reseaux2 span {
+			position: relative;
+			margin-bottom: 50%;
+	}
+}
