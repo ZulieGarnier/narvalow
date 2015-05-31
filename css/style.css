@@ -134,7 +134,8 @@ header {
 
 audio{
 	width:20%;
-	background-color:black;
+	background-color: none;
+	padding: 5px;
 	border-radius:5px;
 	margin-left:0;
 }
@@ -153,7 +154,7 @@ audio{
 	position: relative;
 	background-image:url(../img/fondwebtexte.jpg);
 	background-size:cover;
-	opacity: 0.5;
+	opacity: 0.3;
 	padding:auto;
 	-webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
 	-moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
@@ -298,7 +299,7 @@ nav ul li a:hover{
 	width:100%;
 	height:450px;
 	background-color: darkred;
-	opacity: 0.6;
+	opacity: 0.5;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
 	margin-left:0px;
 	z-index: 2;
