@@ -98,7 +98,7 @@ body{
 	width: 80%;
 	margin-left:10%;
 	margin-right:5%;
-	margin-top:10%;
+	margin-top:5%;
 }
 
 .partenaire img{
@@ -366,6 +366,11 @@ main {
 	margin-top: 11%;
 }
 
+.part2 img {
+	border: 4px dashed red;
+	border-radius: 10px;
+}
+
 .part3 {
 	display: inline-block;
 	width: 30%;
@@ -549,7 +554,20 @@ footer .copyright a {
   }
 }
 
+@media all and (min-width: 341px) and (max-width: 1299px) {
 
+	.part1, .part2 {
+		display: block;
+		width: 100%;
+	}
+	
+	.part2 {
+		text-align: center;
+		margin-top:5%;
+		margin-bottom: 5%;
+		
+	}
+}
 
 
 
