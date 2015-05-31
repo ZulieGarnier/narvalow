@@ -565,7 +565,8 @@ footer .copyright a {
 		text-align: center;
 		margin-top:5%;
 		margin-bottom: 5%;
-		
+		margin-left: 0;
+		margin-right: 0;		
 	}
 }
 
