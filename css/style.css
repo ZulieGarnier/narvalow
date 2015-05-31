@@ -340,15 +340,19 @@ main {
 .widgets {
 	display: block;
 	margin-top: 3%;
+	text-align: center;
 }
 
-.widgets a, .widgets div {
+.widgets .twitter, .widgets .fb {
 	display: inline-block;
-	margin-left: 3%;
-	margin-right: 3%;
-	height: 20%;
-	width: 25%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+	width: 35%;
+	vertical-align: top;
 }
+
+
 
 .part1bis{
 	display:inline-block;
@@ -595,3 +599,31 @@ footer .copyright a {
 			margin-bottom: 50%;
 	}
 }
+
+@media all and (max-width: 340px) {
+	.part1, .part2 {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+		margin-left: 0;
+		
+	}
+
+	.part2 img {
+		width: 60%;
+	}
+	
+	.container {
+		width: 80%;
+	}
+
+	.part3  {
+		display: block;
+		max-width: 80%;
+	}
+	
+	.part3 p {	
+		font-size: 10px;
+	}
+}
+	
