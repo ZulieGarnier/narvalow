@@ -132,11 +132,18 @@ header {
 
 
 audio{
-	width:20%;
-	padding: 5px;
-	border-radius:5px;
-	margin-left:39.5%;
-	margin-right:39.5%;
+	width:21%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top: 0;
+	margin-bottom:-6px;
+	padding-left: 39.5%;
+	padding-right: 39.5%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	z-index: 10;
+	background-color: black;
+	opacity: 1;
 }
 
 .plusgrand {
@@ -572,6 +579,15 @@ footer .copyright a {
 		margin-left: 0;
 		margin-right: 0;		
 	}
+	
+	.reseaux1, .reseaux2 {
+		margin-top: 3%;
+	}
+
+	.reseaux1 span, .reseaux2 span {
+			position: relative;
+			margin-bottom: 50%;
+	}
 }
 
 
@@ -590,14 +606,6 @@ footer .copyright a {
 		margin-left: 0%;
 	}
 
-	.reseaux1, .reseaux2 {
-		margin-top: 3%;
-	}
-
-	.reseaux1 span, .reseaux2 span {
-			position: relative;
-			margin-bottom: 50%;
-	}
 }
 
 @media all and (max-width: 340px) {
