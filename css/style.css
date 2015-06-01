@@ -622,6 +622,7 @@ footer .copyright a {
 	}
 	
 	.container {
+		position: relative;
 		width: 80%;
 	}
 
@@ -634,4 +635,15 @@ footer .copyright a {
 		font-size: 10px;
 	}
 }
+
+@media all and (max-width: 600px) {
 	
+	.container {
+		position: relative;
+		width: 80%;
+	}
+
+	.part2 img {
+		width: 60%;
+	}
+}	
