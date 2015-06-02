@@ -398,6 +398,10 @@ main {
 	text-align:right;
 }
 
+.part1 p, .part3 p{
+	line-height:80%;
+}
+
 .parallax-1, .parallax-2, .parallax-3, .parallax-4 {
 	-moz-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -408,7 +412,7 @@ main {
 
 
 .logos {
-				margin-top: 3%;
+	margin-top: 3%;
 }
 	
 
