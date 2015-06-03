@@ -369,17 +369,48 @@ main {
 }
 
 .part2 {
+	position: relative;
 	display: inline-block;
-	width: 30%;
+	width: 35%;
 	vertical-align: middle;
 	box-sizing: border-box;
-	margin-left:19%;
+	margin-left:12%;
 	margin-top: 11%;
 }
 
+figure {
+	position: relative;
+	width: 100%;
+}
+
 .part2 img {
-	border: 4px dashed red;
+	position: relative;
+	width: 100%;
 	border-radius: 10px;
+	box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5); 
+}
+
+figcaption {
+	text-align: center;
+	font-family: "Fedra";
+	font-weight: 500;
+	margin-top: 3%;
+	padding: 3%;
+	text-transform: uppercase;
+}
+
+figcaption a {
+	color: red;
+	text-decoration: none;
+}
+
+figcaption a:hover {
+	color: darkred;
+	text-decoration: none;
+}
+
+.part2 p {
+	text-align: center;
 }
 
 .part3 {
@@ -571,9 +602,11 @@ footer .copyright a {
 
 @media all and (min-width: 341px) and (max-width: 1299px) {
 
+	
+
 	.part1, .part2 {
 		display: block;
-		width: 100%;
+		width: 90%;
 	}
 	
 	.part2 {
