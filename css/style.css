@@ -95,13 +95,13 @@ body{
 }
 
 .partenaire{
-	width: 90%;
+	width:90%;
 	margin-left:5%;
 }
 
 .partenaire img{
-	width:6%;
-	margin-right:6%;
+	width:7%;
+	margin-right:5%;
 }
 
 .acces{
@@ -146,9 +146,12 @@ audio{
 	opacity: 1;
 }
 
-.plusgrand {
-	height: 35px;
-	width: 500px; 
+.plusgrand img{
+	width:12%;
+}
+
+.smaller img {
+	width:5%;
 }
 
 .pluspetit a {
@@ -398,7 +401,7 @@ main {
 	text-align:right;
 }
 
-.part1 p, .part3 p{
+.module .content .texte4 .part1 p, .module .content .texte4 .part3 p{
 	line-height:80%;
 }
 
@@ -571,6 +574,10 @@ footer .copyright a {
 
 @media all and (min-width: 341px) and (max-width: 1299px) {
 
+	.container{
+		width:70%;
+	}
+
 	.part1, .part2 {
 		display: block;
 		width: 100%;
@@ -596,6 +603,10 @@ footer .copyright a {
 
 
 @media all and (max-width: 1531px) {
+
+	.container{
+		width:80%;
+	}
 	
 	.nav1 nav ul {
 		padding-left:0;
@@ -613,6 +624,10 @@ footer .copyright a {
 }
 
 @media all and (max-width: 340px) {
+	.container{
+		width:60%;
+	}
+
 	.part1, .part2 {
 		width: 100%;
 		height: auto;
